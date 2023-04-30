@@ -112,7 +112,7 @@ def todayDate():
 
 #########
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 
 llm = OpenAI(temperature=0, verbose=True)
 pal_chain = PALChain.from_math_prompt(llm, verbose=True)
